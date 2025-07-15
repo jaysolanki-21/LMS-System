@@ -1,5 +1,5 @@
 const express = require("express");
-const { addLecture, updateLecture, deleteLecture } = require("../controllers/LectureController");
+const { addLecture, updateLecture, deleteLecture } = require("../controllers/lectureController");
 const router = express.Router();
 const multer = require("multer");
 
